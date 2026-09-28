@@ -7,7 +7,7 @@
 在终端 1 进入 `CompNetwLab1` 目录后执行：
 
 ```bash
-python3 udp_server.py
+py udp_server.py
 ```
 
 出现 `Listening on udp://127.0.0.1:8080` 后保持该终端运行。`recvfrom()` 正在阻塞等待数据，不是程序卡死。
@@ -27,7 +27,7 @@ udp && udp.port == 8080
 在终端 2 进入 `CompNetwLab1` 目录后执行：
 
 ```bash
-python3 udp_client.py
+py udp_client.py
 ```
 
 客户端发送完成后，服务端应输出类似结果：
