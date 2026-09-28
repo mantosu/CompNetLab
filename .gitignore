@@ -10,3 +10,7 @@
 # 临时文件
 *.tmp
 *.log
+
+# Python 缓存
+__pycache__/
+*.py[cod]
