@@ -65,13 +65,13 @@ python3 udp_server.py --host 127.0.0.1 --port 8080 --count 100
 服务端监听所有本地 IPv4 网卡：
 
 ```bash
-python3 udp_server.py --host 0.0.0.0 --port 8080
+python udp_server.py --host 0.0.0.0 --port 8080
 ```
 
 客户端的 `--host` 改为服务器的局域网 IPv4 地址：
 
 ```bash
-python3 udp_client.py --host 192.168.1.100 --port 8080
+python udp_client.py --host 192.168.1.100 --port 8080
 ```
 
 两台电脑需要连接同一个局域网，并确保防火墙允许 UDP 8080。
